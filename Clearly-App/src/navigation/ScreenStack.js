@@ -34,8 +34,8 @@ const ScreenStack = () => {
                 {isAppFirstLaunched &&
                     <Stack.Screen name='Onboarding' component={OnboardingScreen} />
                 }
-                <Stack.Screen name='SignUp' component={SignUpScreen} />
                 <Stack.Screen name='LogIn' component={LogIn} />
+                <Stack.Screen name='SignUp' component={SignUpScreen} />
             </Stack.Navigator>
         )
     );

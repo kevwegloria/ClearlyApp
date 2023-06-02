@@ -70,7 +70,7 @@ const OnboardingScreen = () => {
 
         //SignUp button function
         const onSignUpPress = () => {
-            navigation.replace('SignUp')
+            navigation.navigate('SignUp')
         }
 
         //function to handle the buttons and indicator
